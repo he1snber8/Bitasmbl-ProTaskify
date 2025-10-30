@@ -1,0 +1,1 @@
+// src/routes/projectRoutes.js\nconst express = require('express');\nconst router = express.Router();\n// GET/POST/PUT/DELETE /projects\nmodule.exports = router;
