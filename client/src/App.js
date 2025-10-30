@@ -1,0 +1,1 @@
+// client/src/App.js\nimport React from 'react';\nfunction App() { return <div>Task Manager</div>; }\nexport default App;
