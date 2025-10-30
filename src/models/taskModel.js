@@ -1,0 +1,1 @@
+// src/models/taskModel.js\nconst db = require('../db');\nmodule.exports = {getTasks: projectId => db.query(\"SELECT * FROM tasks WHERE project_id=$1 ORDER BY priority\",[projectId])};
