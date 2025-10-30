@@ -1,0 +1,1 @@
+// client/package.json\n{\n  \"name\": \"task-manager-client\",\n  \"scripts\": {\"start\": \"react-scripts start\"}\n}\n// Run: npx create-react-app client
