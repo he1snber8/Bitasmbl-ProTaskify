@@ -1,0 +1,1 @@
+// src/db.js\nconst { Client } = require('pg');\nconst client = new Client({connectionString: process.env.DATABASE_URL});\nclient.connect();\nmodule.exports = client;
