@@ -1,0 +1,1 @@
+// package.json\n{\n  \"name\": \"task-manager\",\n  \"scripts\": {\"start\": \"node src/index.js\"}\n}\n// npm install express pg dotenv jsonwebtoken
