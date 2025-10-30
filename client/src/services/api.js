@@ -1,0 +1,1 @@
+// client/src/services/api.js\nimport axios from 'axios';\nconst api = axios.create({baseURL: process.env.REACT_APP_API_URL});\nexport default api;
