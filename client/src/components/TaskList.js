@@ -1,0 +1,1 @@
+// client/src/components/TaskList.js\nimport React,{useEffect,useState} from 'react';\nimport api from '../services/api';\nfunction TaskList(){const [tasks,setTasks]=useState([]);useEffect(()=>{api.get('/tasks?sort=priority').then(r=>setTasks(r.data));},[]);return <ul>{tasks.map(t=><li key={t.id}>{t.title} (Priority:{t.priority})</li>)}</ul>;}\nexport default TaskList;
