@@ -1,0 +1,1 @@
+// src/middleware/auth.js\nconst jwt = require('jsonwebtoken');\nmodule.exports = (req,res,next) => {const token = req.header('Authorization')?.split(' ')[1]; /* verify token */ next();};
