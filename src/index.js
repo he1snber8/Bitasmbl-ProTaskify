@@ -1,0 +1,1 @@
+// src/index.js\nconst express = require('express');\nrequire('dotenv').config();\nconst app = express();\napp.use(express.json());\napp.listen(process.env.PORT||3000, ()=> console.log("Server running on port " + (process.env.PORT||3000)));
