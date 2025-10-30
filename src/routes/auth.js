@@ -1,0 +1,1 @@
+// src/routes/auth.js\nconst express = require('express');\nconst router = express.Router();\n// POST /register\nrouter.post('/register',(req,res)=>{/* register logic */});\n// POST /login\nrouter.post('/login',(req,res)=>{/* login logic */});\nmodule.exports = router;
