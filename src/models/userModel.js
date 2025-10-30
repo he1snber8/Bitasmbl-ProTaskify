@@ -1,0 +1,1 @@
+// src/models/userModel.js\nconst db = require('../db');\nmodule.exports = {createUser: (email,hash) => db.query(\"INSERT INTO users(email,password) VALUES($1,$2) RETURNING *\",[email,hash])};
